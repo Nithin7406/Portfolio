@@ -16,7 +16,7 @@ const Intro = () => {
             Website Designer
           </span>
           <p className="introPara">
-            I am a skilled web designer with experience in creating <br />{" "}
+            I am a skilled web designer with experience in creating <br />
             visual appealing and user friendly websits.
           </p>
           <Link>

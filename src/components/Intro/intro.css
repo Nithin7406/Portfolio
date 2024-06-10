@@ -4,12 +4,13 @@
   max-width: 75rem;
   margin: 0 auto;
   overflow: hidden;
+  position: relative;
 }
 
 .bg {
   position: absolute;
-  top: 0rem;
-  right: 10vh;
+  top: -4rem;
+  right: 0;
   z-index: -1;
   object-fit: cover;
   height: 100vh;
@@ -66,8 +67,8 @@
     font-size: 4.5vw;
   }
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 480px) {
   .bg {
-    right: -14vw;
+    right: -20vw;
   }
 }
