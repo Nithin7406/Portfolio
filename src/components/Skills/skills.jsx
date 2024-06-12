@@ -15,28 +15,30 @@ const Skills = () => {
         HTML, CSS, and JavaScript, as well as design software such as Adobe
         Photoshop and Illustrator.
       </span>
-      <div className="skillBar">
-        <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
-        <div className="skillBarText">
-          <h2>UI/UX Design</h2>
-          <p>This is a demo text, your can write your own content here.</p>
+      <div className="skillBars">
+        <div className="skillBar">
+          <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
+          <div className="skillBarText">
+            <h2>UI/UX Design</h2>
+            <p>This is a demo text, your can write your own content here.</p>
+          </div>
         </div>
-      </div>
-      <div className="skillBar">
-        <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
-        <div className="skillBarText">
-          <h2>Website Design</h2>
-          <p>
-            This demo text can be changed while making the production ready
-            website.
-          </p>
+        <div className="skillBar">
+          <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
+          <div className="skillBarText">
+            <h2>Website Design</h2>
+            <p>
+              This demo text can be changed while making the production ready
+              website.
+            </p>
+          </div>
         </div>
-      </div>
-      <div className="skillBar">
-        <img src={AppDesign} alt="AppDesign" className="skillBarImg" />
-        <div className="skillBarText">
-          <h2>App Dsign</h2>
-          <p> You can write text related to mobile app development.</p>
+        <div className="skillBar">
+          <img src={AppDesign} alt="AppDesign" className="skillBarImg" />
+          <div className="skillBarText">
+            <h2>App Dsign</h2>
+            <p> You can write text related to mobile app development.</p>
+          </div>
         </div>
       </div>
     </section>
