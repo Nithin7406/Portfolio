@@ -18,7 +18,7 @@ const Navbar = () => {
           smooth={true}
           offset={-100}
           duration={500}
-          className="decktopMenuListItem"
+          className="desktopMenuListItem"
         >
           Home
         </Link>
@@ -29,7 +29,7 @@ const Navbar = () => {
           smooth={true}
           offset={-50}
           duration={500}
-          className="decktopMenuListItem"
+          className="desktopMenuListItem"
         >
           About
         </Link>
@@ -40,7 +40,7 @@ const Navbar = () => {
           smooth={true}
           offset={-50}
           duration={500}
-          className="decktopMenuListItem"
+          className="desktopMenuListItem"
         >
           Portfolio
         </Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
           smooth={true}
           offset={-50}
           duration={500}
-          className="decktopMenuListItem"
+          className="desktopMenuListItem"
         >
           Clients
         </Link>
@@ -64,7 +64,7 @@ const Navbar = () => {
             .scrollIntoView({ behavior: "smooth" });
         }}
       >
-        <img src={contactImg} alt="Contact" className="decktopMenuListItem" />
+        <img src={contactImg} alt="Contact" className="desktopMenuImg" />
         Contact Me
       </button>
       <img
