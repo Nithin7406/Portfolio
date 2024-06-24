@@ -37,10 +37,10 @@ const Contact = () => {
   return (
     <section className="contactPage">
       <div id="clients">
-        <h1 className="contactPageTitle">My Clients</h1>
+        <h1 className="contactPageTitle">Clients</h1>
         <p className="clientDesc">
-          I have had the opportunity to work with a diverse group of companies.
-          Some of the notable companies I have worked with include:
+          I aspire to collaborate with a diverse range of companies in the
+          future, including some notable ones such as:
         </p>
         <div className="clientImgs">
           <img src={Walmart} alt="Walmart" className="clientImg" />
@@ -52,7 +52,7 @@ const Contact = () => {
       <div id="contact">
         <h1 className="contactPageTitle">Contact Me</h1>
         <span className="contactDesc">
-          Please fill out the form below to discuss any work opportunities.
+          Please fill out the form below to discuss any work related.
         </span>
         <form className="contactForm" ref={form} onSubmit={sendEmail}>
           <input

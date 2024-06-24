@@ -5,6 +5,10 @@ import { Link } from "react-scroll";
 import btnImg from "../../assets/hireme.png";
 
 const Intro = () => {
+  const handleClick = () => {
+    document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+    alert("Ready to elevate your project? Let's connect! Drop me a message.");
+  };
   return (
     <div>
       <section id="intro">
@@ -13,14 +17,14 @@ const Intro = () => {
           <span className="introText">
             I'm <span className="introName">Nithin Kumar</span>
             <br />
-            Website Designer
+            Web Developer
           </span>
           <p className="introPara">
-            I am a skilled web designer with experience in creating <br />{" "}
-            visual appealing and user friendly websits.
+            I code interactive websites, bringing digital visions to life.{" "}
+            <br /> I build beautiful web apps, from design to function.
           </p>
           <Link>
-            <button className="btn">
+            <button className="btn" onClick={handleClick}>
               <img src={btnImg} alt="Hire Me" className="btnImg" />
               Hire Me
             </button>
