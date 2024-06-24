@@ -7,7 +7,9 @@ import btnImg from "../../assets/hireme.png";
 const Intro = () => {
   const handleClick = () => {
     document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
-    alert("Ready to elevate your project? Let's connect! Drop me a message.");
+    alert(
+      "Thinkyou for hireing me..!\nReady to work with your project? Let's connect! Drop me a message."
+    );
   };
   return (
     <div>
