@@ -8,7 +8,7 @@ const Intro = () => {
   const handleClick = () => {
     document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
     alert(
-      "Thinkyou for hireing me..!\nReady to work with your project? Let's connect! Drop me a message."
+      "Thinkyou for hiring me..!\nReady to work with your project? Let's connect! Drop me a message."
     );
   };
   return (
